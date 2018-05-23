@@ -9,7 +9,7 @@
 	xmlns:foaf="http://xmlns.com/foaf/0.1/">
 
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Alabama">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Alabama">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Alabama</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">48.5</dem:malePercent>
@@ -23,7 +23,7 @@
 	<dem:hispanic rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</dem:hispanic>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Alaska">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Alaska">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Alaska</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">52.3</dem:malePercent>
@@ -37,7 +37,7 @@
 	<dem:hispanic rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.7</dem:hispanic>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Arizona">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Arizona">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Arizona</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">49.7</dem:malePercent>
@@ -51,7 +51,7 @@
 	<dem:hispanic rdf:datatype="http://www.w3.org/2001/XMLSchema#float">30.5</dem:hispanic>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Arkansas">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Arkansas">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Arkansas</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">49.1</dem:malePercent>
@@ -65,7 +65,7 @@
 	<dem:hispanic rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.0</dem:hispanic>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/California">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/California">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>California</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">49.7</dem:malePercent>
@@ -79,7 +79,7 @@
 	<dem:hispanic rdf:datatype="http://www.w3.org/2001/XMLSchema#float">38.6</dem:hispanic>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Colorado">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Colorado">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Colorado</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.2</dem:malePercent>
@@ -93,7 +93,7 @@
 	<dem:hispanic rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.1</dem:hispanic>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Connecticut">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Connecticut">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Connecticut</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">48.8</dem:malePercent>
@@ -107,7 +107,7 @@
 	<dem:hispanic rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.0</dem:hispanic>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Delaware">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Delaware">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Delaware</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">48.4</dem:malePercent>
@@ -121,7 +121,7 @@
 	<dem:hispanic rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.8</dem:hispanic>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/District+of+Columbia">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/District+of+Columbia">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>District of Columbia</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">47.4</dem:malePercent>
@@ -135,7 +135,7 @@
 	<dem:hispanic rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.5</dem:hispanic>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Florida">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Florida">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Florida</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">48.9</dem:malePercent>
@@ -149,7 +149,7 @@
 	<dem:hispanic rdf:datatype="http://www.w3.org/2001/XMLSchema#float">24.1</dem:hispanic>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Georgia">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Georgia">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Georgia</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">48.7</dem:malePercent>
@@ -163,7 +163,7 @@
 	<dem:hispanic rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.2</dem:hispanic>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Hawaii">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Hawaii">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Hawaii</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.2</dem:malePercent>
@@ -177,7 +177,7 @@
 	<dem:hispanic rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.0</dem:hispanic>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Idaho">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Idaho">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Idaho</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.1</dem:malePercent>
@@ -191,7 +191,7 @@
 	<dem:hispanic rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.0</dem:hispanic>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Illinois">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Illinois">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Illinois</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">49.1</dem:malePercent>
@@ -205,7 +205,7 @@
 	<dem:hispanic rdf:datatype="http://www.w3.org/2001/XMLSchema#float">16.6</dem:hispanic>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Indiana">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Indiana">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Indiana</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">49.2</dem:malePercent>
@@ -219,7 +219,7 @@
 	<dem:hispanic rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.5</dem:hispanic>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Iowa">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Iowa">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Iowa</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">49.7</dem:malePercent>
@@ -233,7 +233,7 @@
 	<dem:hispanic rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.6</dem:hispanic>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Kansas">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Kansas">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Kansas</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">49.8</dem:malePercent>
@@ -247,7 +247,7 @@
 	<dem:hispanic rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.3</dem:hispanic>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Kentucky">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Kentucky">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Kentucky</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">49.2</dem:malePercent>
@@ -261,7 +261,7 @@
 	<dem:hispanic rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.3</dem:hispanic>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Louisiana">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Louisiana">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Louisiana</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">48.9</dem:malePercent>
@@ -275,7 +275,7 @@
 	<dem:hispanic rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.8</dem:hispanic>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Maine">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Maine">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Maine</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">49.0</dem:malePercent>
@@ -289,7 +289,7 @@
 	<dem:hispanic rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.5</dem:hispanic>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Maryland">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Maryland">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Maryland</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">48.4</dem:malePercent>
@@ -303,7 +303,7 @@
 	<dem:hispanic rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.2</dem:hispanic>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Massachusetts">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Massachusetts">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Massachusetts</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">48.5</dem:malePercent>
@@ -317,7 +317,7 @@
 	<dem:hispanic rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.9</dem:hispanic>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Michigan">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Michigan">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Michigan</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">49.1</dem:malePercent>
@@ -331,7 +331,7 @@
 	<dem:hispanic rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.8</dem:hispanic>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Minnesota">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Minnesota">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Minnesota</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">49.7</dem:malePercent>
@@ -345,7 +345,7 @@
 	<dem:hispanic rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.1</dem:hispanic>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Mississippi">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Mississippi">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Mississippi</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">48.5</dem:malePercent>
@@ -359,7 +359,7 @@
 	<dem:hispanic rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.9</dem:hispanic>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Missouri">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Missouri">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Missouri</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">49.1</dem:malePercent>
@@ -373,7 +373,7 @@
 	<dem:hispanic rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.9</dem:hispanic>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Montana">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Montana">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Montana</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.2</dem:malePercent>
@@ -387,7 +387,7 @@
 	<dem:hispanic rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.4</dem:hispanic>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Nebraska">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Nebraska">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Nebraska</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">49.8</dem:malePercent>
@@ -401,7 +401,7 @@
 	<dem:hispanic rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.2</dem:hispanic>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Nevada">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Nevada">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Nevada</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.2</dem:malePercent>
@@ -415,7 +415,7 @@
 	<dem:hispanic rdf:datatype="http://www.w3.org/2001/XMLSchema#float">27.8</dem:hispanic>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/New+Hampshire">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/New+Hampshire">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>New Hampshire</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">49.5</dem:malePercent>
@@ -429,7 +429,7 @@
 	<dem:hispanic rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.3</dem:hispanic>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/New+Jersey">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/New+Jersey">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>New Jersey</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">48.8</dem:malePercent>
@@ -443,7 +443,7 @@
 	<dem:hispanic rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19.3</dem:hispanic>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/New+Mexico">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/New+Mexico">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>New Mexico</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">49.5</dem:malePercent>
@@ -457,7 +457,7 @@
 	<dem:hispanic rdf:datatype="http://www.w3.org/2001/XMLSchema#float">47.8</dem:hispanic>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/New+York">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/New+York">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>New York</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">48.5</dem:malePercent>
@@ -471,7 +471,7 @@
 	<dem:hispanic rdf:datatype="http://www.w3.org/2001/XMLSchema#float">18.6</dem:hispanic>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/North+Carolina">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/North+Carolina">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>North Carolina</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">48.6</dem:malePercent>
@@ -485,7 +485,7 @@
 	<dem:hispanic rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.9</dem:hispanic>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/North+Dakota">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/North+Dakota">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>North Dakota</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">51.2</dem:malePercent>
@@ -499,7 +499,7 @@
 	<dem:hispanic rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.1</dem:hispanic>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Ohio">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Ohio">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Ohio</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">49.0</dem:malePercent>
@@ -513,7 +513,7 @@
 	<dem:hispanic rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.5</dem:hispanic>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Oklahoma">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Oklahoma">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Oklahoma</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">49.5</dem:malePercent>
@@ -527,7 +527,7 @@
 	<dem:hispanic rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.8</dem:hispanic>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Oregon">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Oregon">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Oregon</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">49.5</dem:malePercent>
@@ -541,7 +541,7 @@
 	<dem:hispanic rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.4</dem:hispanic>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Pennsylvania">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Pennsylvania">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Pennsylvania</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">48.9</dem:malePercent>
@@ -555,7 +555,7 @@
 	<dem:hispanic rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.6</dem:hispanic>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Rhode+Island">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Rhode+Island">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Rhode Island</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">48.5</dem:malePercent>
@@ -569,7 +569,7 @@
 	<dem:hispanic rdf:datatype="http://www.w3.org/2001/XMLSchema#float">14.1</dem:hispanic>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/South+Carolina">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/South+Carolina">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>South Carolina</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">48.6</dem:malePercent>
@@ -583,7 +583,7 @@
 	<dem:hispanic rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.3</dem:hispanic>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/South+Dakota">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/South+Dakota">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>South Dakota</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.3</dem:malePercent>
@@ -597,7 +597,7 @@
 	<dem:hispanic rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.4</dem:hispanic>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Tennessee">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Tennessee">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Tennessee</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">48.7</dem:malePercent>
@@ -611,7 +611,7 @@
 	<dem:hispanic rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</dem:hispanic>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Texas">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Texas">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Texas</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">49.6</dem:malePercent>
@@ -625,7 +625,7 @@
 	<dem:hispanic rdf:datatype="http://www.w3.org/2001/XMLSchema#float">38.6</dem:hispanic>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Utah">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Utah">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Utah</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.3</dem:malePercent>
@@ -639,7 +639,7 @@
 	<dem:hispanic rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.5</dem:hispanic>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Vermont">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Vermont">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Vermont</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">49.3</dem:malePercent>
@@ -653,7 +653,7 @@
 	<dem:hispanic rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.7</dem:hispanic>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Virginia">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Virginia">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Virginia</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">49.2</dem:malePercent>
@@ -667,7 +667,7 @@
 	<dem:hispanic rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.7</dem:hispanic>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Washington">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Washington">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Washington</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">49.9</dem:malePercent>
@@ -681,7 +681,7 @@
 	<dem:hispanic rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.1</dem:hispanic>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/West+Virginia">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/West+Virginia">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>West Virginia</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">49.4</dem:malePercent>
@@ -695,7 +695,7 @@
 	<dem:hispanic rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.4</dem:hispanic>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Wisconsin">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Wisconsin">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Wisconsin</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">49.7</dem:malePercent>
@@ -709,7 +709,7 @@
 	<dem:hispanic rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.5</dem:hispanic>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Wyoming">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Wyoming">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Wyoming</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">51.1</dem:malePercent>
@@ -723,7 +723,7 @@
 	<dem:hispanic rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.7</dem:hispanic>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Puerto+Rico">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Puerto+Rico">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Puerto Rico</hom:state>
 	<dem:malePercent rdf:datatype="http://www.w3.org/2001/XMLSchema#float">47.8</dem:malePercent>

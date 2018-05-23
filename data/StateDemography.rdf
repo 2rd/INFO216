@@ -9,7 +9,7 @@
 	xmlns:foaf="http://xmlns.com/foaf/0.1/">
 
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Alabama">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Alabama">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Alabama</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3864302</dem:popO16>
@@ -38,7 +38,7 @@
 	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">26.5</dem:Under18InPoverty>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Alaska">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Alaska">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Alaska</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">568732</dem:popO16>
@@ -67,7 +67,7 @@
 	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">14.4</dem:Under18InPoverty>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Arizona">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Arizona">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Arizona</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5290839</dem:popO16>
@@ -96,7 +96,7 @@
 	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.3</dem:Under18InPoverty>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Arkansas">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Arkansas">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Arkansas</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2339307</dem:popO16>
@@ -125,7 +125,7 @@
 	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">26.8</dem:Under18InPoverty>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/California">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/California">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>California</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">30565746</dem:popO16>
@@ -154,7 +154,7 @@
 	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.9</dem:Under18InPoverty>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Colorado">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Colorado">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Colorado</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4245559</dem:popO16>
@@ -183,7 +183,7 @@
 	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.7</dem:Under18InPoverty>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Connecticut">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Connecticut">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Connecticut</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2911925</dem:popO16>
@@ -212,7 +212,7 @@
 	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">14.1</dem:Under18InPoverty>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Delaware">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Delaware">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Delaware</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">753039</dem:popO16>
@@ -241,7 +241,7 @@
 	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">17.6</dem:Under18InPoverty>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/District+of+Columbia">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/District+of+Columbia">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>District of Columbia</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">554780</dem:popO16>
@@ -270,7 +270,7 @@
 	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.8</dem:Under18InPoverty>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Florida">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Florida">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Florida</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">16339299</dem:popO16>
@@ -299,7 +299,7 @@
 	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">23.3</dem:Under18InPoverty>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Georgia">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Georgia">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Georgia</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7882965</dem:popO16>
@@ -328,7 +328,7 @@
 	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.4</dem:Under18InPoverty>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Hawaii">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Hawaii">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Hawaii</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1137804</dem:popO16>
@@ -357,7 +357,7 @@
 	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">14.1</dem:Under18InPoverty>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Idaho">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Idaho">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Idaho</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1251275</dem:popO16>
@@ -386,7 +386,7 @@
 	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19.0</dem:Under18InPoverty>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Illinois">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Illinois">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Illinois</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10206768</dem:popO16>
@@ -415,7 +415,7 @@
 	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19.5</dem:Under18InPoverty>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Indiana">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Indiana">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Indiana</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5185793</dem:popO16>
@@ -444,7 +444,7 @@
 	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.2</dem:Under18InPoverty>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Iowa">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Iowa">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Iowa</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2459591</dem:popO16>
@@ -473,7 +473,7 @@
 	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.3</dem:Under18InPoverty>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Kansas">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Kansas">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Kansas</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2255916</dem:popO16>
@@ -502,7 +502,7 @@
 	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">17.2</dem:Under18InPoverty>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Kentucky">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Kentucky">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Kentucky</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3511065</dem:popO16>
@@ -531,7 +531,7 @@
 	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.7</dem:Under18InPoverty>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Louisiana">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Louisiana">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Louisiana</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3654913</dem:popO16>
@@ -560,7 +560,7 @@
 	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">27.8</dem:Under18InPoverty>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Maine">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Maine">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Maine</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1101688</dem:popO16>
@@ -589,7 +589,7 @@
 	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">17.9</dem:Under18InPoverty>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Maryland">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Maryland">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Maryland</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4764901</dem:popO16>
@@ -618,7 +618,7 @@
 	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.3</dem:Under18InPoverty>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Massachusetts">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Massachusetts">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Massachusetts</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5522235</dem:popO16>
@@ -647,7 +647,7 @@
 	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">14.9</dem:Under18InPoverty>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Michigan">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Michigan">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Michigan</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7953581</dem:popO16>
@@ -676,7 +676,7 @@
 	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">22.8</dem:Under18InPoverty>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Minnesota">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Minnesota">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Minnesota</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4311636</dem:popO16>
@@ -705,7 +705,7 @@
 	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.9</dem:Under18InPoverty>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Mississippi">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Mississippi">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Mississippi</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2338750</dem:popO16>
@@ -734,7 +734,7 @@
 	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">31.5</dem:Under18InPoverty>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Missouri">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Missouri">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Missouri</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4823223</dem:popO16>
@@ -763,7 +763,7 @@
 	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.1</dem:Under18InPoverty>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Montana">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Montana">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Montana</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">822530</dem:popO16>
@@ -792,7 +792,7 @@
 	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">18.6</dem:Under18InPoverty>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Nebraska">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Nebraska">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Nebraska</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1463872</dem:popO16>
@@ -821,7 +821,7 @@
 	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">16.4</dem:Under18InPoverty>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Nevada">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Nevada">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Nevada</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2248477</dem:popO16>
@@ -850,7 +850,7 @@
 	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.3</dem:Under18InPoverty>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/New+Hampshire">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/New+Hampshire">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>New Hampshire</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1094783</dem:popO16>
@@ -879,7 +879,7 @@
 	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.0</dem:Under18InPoverty>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/New+Jersey">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/New+Jersey">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>New Jersey</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7143654</dem:popO16>
@@ -908,7 +908,7 @@
 	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.6</dem:Under18InPoverty>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/New+Mexico">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/New+Mexico">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>New Mexico</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1637594</dem:popO16>
@@ -937,7 +937,7 @@
 	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">29.8</dem:Under18InPoverty>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/New+York">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/New+York">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>New York</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15964950</dem:popO16>
@@ -966,7 +966,7 @@
 	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.9</dem:Under18InPoverty>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/North+Carolina">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/North+Carolina">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>North Carolina</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7907915</dem:popO16>
@@ -995,7 +995,7 @@
 	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">23.9</dem:Under18InPoverty>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/North+Dakota">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/North+Dakota">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>North Dakota</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">585370</dem:popO16>
@@ -1024,7 +1024,7 @@
 	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.0</dem:Under18InPoverty>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Ohio">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Ohio">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Ohio</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9255859</dem:popO16>
@@ -1053,7 +1053,7 @@
 	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">22.1</dem:Under18InPoverty>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Oklahoma">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Oklahoma">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Oklahoma</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3025259</dem:popO16>
@@ -1082,7 +1082,7 @@
 	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">23.1</dem:Under18InPoverty>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Oregon">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Oregon">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Oregon</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3219754</dem:popO16>
@@ -1111,7 +1111,7 @@
 	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.4</dem:Under18InPoverty>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Pennsylvania">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Pennsylvania">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Pennsylvania</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10402780</dem:popO16>
@@ -1140,7 +1140,7 @@
 	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19.1</dem:Under18InPoverty>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Rhode+Island">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Rhode+Island">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Rhode Island</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">868361</dem:popO16>
@@ -1169,7 +1169,7 @@
 	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19.4</dem:Under18InPoverty>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/South+Carolina">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/South+Carolina">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>South Carolina</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3871553</dem:popO16>
@@ -1198,7 +1198,7 @@
 	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.3</dem:Under18InPoverty>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/South+Dakota">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/South+Dakota">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>South Dakota</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">663635</dem:popO16>
@@ -1227,7 +1227,7 @@
 	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">18.4</dem:Under18InPoverty>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Tennessee">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Tennessee">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Tennessee</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5222438</dem:popO16>
@@ -1256,7 +1256,7 @@
 	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.1</dem:Under18InPoverty>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Texas">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Texas">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Texas</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">20599223</dem:popO16>
@@ -1285,7 +1285,7 @@
 	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">23.9</dem:Under18InPoverty>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Utah">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Utah">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Utah</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2136930</dem:popO16>
@@ -1314,7 +1314,7 @@
 	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.4</dem:Under18InPoverty>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Vermont">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Vermont">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Vermont</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">520197</dem:popO16>
@@ -1343,7 +1343,7 @@
 	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.1</dem:Under18InPoverty>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Virginia">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Virginia">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Virginia</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6653111</dem:popO16>
@@ -1372,7 +1372,7 @@
 	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.1</dem:Under18InPoverty>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Washington">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Washington">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Washington</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5647697</dem:popO16>
@@ -1401,7 +1401,7 @@
 	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">16.5</dem:Under18InPoverty>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/West+Virginia">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/West+Virginia">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>West Virginia</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1509212</dem:popO16>
@@ -1430,7 +1430,7 @@
 	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">24.7</dem:Under18InPoverty>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Wisconsin">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Wisconsin">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Wisconsin</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4603725</dem:popO16>
@@ -1459,7 +1459,7 @@
 	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">17.5</dem:Under18InPoverty>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Wyoming">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Wyoming">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Wyoming</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">459198</dem:popO16>
@@ -1488,7 +1488,7 @@
 	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.9</dem:Under18InPoverty>
 </rdf:Description>
 
-<rdf:Description rdf:about="http:/semantichomicides.com/demography/Puerto+Rico">
+<rdf:Description rdf:about="http://semantichomicides.com/demography/Puerto+Rico">
 	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
 	<hom:state>Puerto Rico</hom:state>
 	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2863657</dem:popO16>
