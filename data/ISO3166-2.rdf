@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:geo="http://www.geonames.org/ontology#"
+	xmlns:dc="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:void="http://rdfs.org/ns/void#">
+
+	<foaf:Document rdf:about="http://ontologi.es/place/">
+		<dc:title>Index of Places</dc:title>
+		<dc:description>Places with an ISO 3166-2 code.</dc:description>
+		<dc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+	</foaf:Document>
+
+	<void:Dataset rdf:about="http://ontologi.es/place/#d">
+		<dc:title>Linked ISO 3166-2 Data</dc:title>
+		<dc:publisher rdf:resource="http://tobyinkster.co.uk/#i" />
+		<dc:created>2009-06-14</dc:created>
+		<dc:subject rdf:resource="http://purl.org/NET/decimalised#c910" />
+		<dc:subject rdf:resource="http://dbpedia.org/resource/Location" />
+		<dc:subject rdf:resource="http://dbpedia.org/resource/ISO_3166-2" />
+		<foaf:homepage rdf:resource="http://ontologi.es/place/" />
+		<void:exampleResource rdf:resource="http://ontologi.es/place/GB" />
+		<void:exampleResource rdf:resource="http://ontologi.es/place/GB-ENG" />
+		<void:exampleResource rdf:resource="http://ontologi.es/place/GB-WAR" />
+		<void:exampleResource rdf:resource="http://ontologi.es/place/AF-KAB" />
+		<void:uriRegexPattern>http://ontologi.es/place/.+</void:uriRegexPattern>
+		<void:feature dc:format="application/rdf+xml" />
+		<void:vocabulary rdf:resource="http://www.geonames.org/ontology#" />
+		<void:vocabulary rdf:resource="http://www.w3.org/2004/02/skos/core#" />
+		<void:vocabulary rdf:resource="http://purl.org/dc/terms/" />
+		<void:vocabulary rdf:resource="http://xmlns.com/foaf/0.1/" />
+	</void:Dataset>
+
+	<geo:Feature rdf:about="http://ontologi.es/place/US-AK" skos:notation="US-AK" rdfs:label="Alaska" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-AL" skos:notation="US-AL" rdfs:label="Alabama" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-AR" skos:notation="US-AR" rdfs:label="Arkansas" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-AS" skos:notation="US-AS" rdfs:label="American Samoa" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-AZ" skos:notation="US-AZ" rdfs:label="Arizona" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-CA" skos:notation="US-CA" rdfs:label="California" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-CO" skos:notation="US-CO" rdfs:label="Colorado" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-CT" skos:notation="US-CT" rdfs:label="Connecticut" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-DC" skos:notation="US-DC" rdfs:label="District of Columbia" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-DE" skos:notation="US-DE" rdfs:label="Delaware" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-FL" skos:notation="US-FL" rdfs:label="Florida" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-GA" skos:notation="US-GA" rdfs:label="Georgia" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-GU" skos:notation="US-GU" rdfs:label="Guam" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-HI" skos:notation="US-HI" rdfs:label="Hawaii" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-IA" skos:notation="US-IA" rdfs:label="Iowa" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-ID" skos:notation="US-ID" rdfs:label="Idaho" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-IL" skos:notation="US-IL" rdfs:label="Illinois" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-IN" skos:notation="US-IN" rdfs:label="Indiana" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-KS" skos:notation="US-KS" rdfs:label="Kansas" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-KY" skos:notation="US-KY" rdfs:label="Kentucky" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-LA" skos:notation="US-LA" rdfs:label="Louisiana" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-MA" skos:notation="US-MA" rdfs:label="Massachusetts" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-MD" skos:notation="US-MD" rdfs:label="Maryland" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-ME" skos:notation="US-ME" rdfs:label="Maine" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-MI" skos:notation="US-MI" rdfs:label="Michigan" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-MN" skos:notation="US-MN" rdfs:label="Minnesota" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-MO" skos:notation="US-MO" rdfs:label="Missouri" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-MP" skos:notation="US-MP" rdfs:label="Northern Mariana Islands" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-MS" skos:notation="US-MS" rdfs:label="Mississippi" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-MT" skos:notation="US-MT" rdfs:label="Montana" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-NC" skos:notation="US-NC" rdfs:label="North Carolina" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-ND" skos:notation="US-ND" rdfs:label="North Dakota" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-NE" skos:notation="US-NE" rdfs:label="Nebraska" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-NH" skos:notation="US-NH" rdfs:label="New Hampshire" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-NJ" skos:notation="US-NJ" rdfs:label="New Jersey" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-NM" skos:notation="US-NM" rdfs:label="New Mexico" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-NV" skos:notation="US-NV" rdfs:label="Nevada" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-NY" skos:notation="US-NY" rdfs:label="New York" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-OH" skos:notation="US-OH" rdfs:label="Ohio" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-OK" skos:notation="US-OK" rdfs:label="Oklahoma" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-OR" skos:notation="US-OR" rdfs:label="Oregon" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-PA" skos:notation="US-PA" rdfs:label="Pennsylvania" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-PR" skos:notation="US-PR" rdfs:label="Puerto Rico" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-RI" skos:notation="US-RI" rdfs:label="Rhode Island" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-SC" skos:notation="US-SC" rdfs:label="South Carolina" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-SD" skos:notation="US-SD" rdfs:label="South Dakota" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-TN" skos:notation="US-TN" rdfs:label="Tennessee" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-TX" skos:notation="US-TX" rdfs:label="Texas" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-UM" skos:notation="US-UM" rdfs:label="United States Minor Outlying Islands" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-UT" skos:notation="US-UT" rdfs:label="Utah" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-VA" skos:notation="US-VA" rdfs:label="Virginia" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-VI" skos:notation="US-VI" rdfs:label="Virgin Islands, U.S." />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-VT" skos:notation="US-VT" rdfs:label="Vermont" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-WA" skos:notation="US-WA" rdfs:label="Washington" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-WI" skos:notation="US-WI" rdfs:label="Wisconsin" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-WV" skos:notation="US-WV" rdfs:label="West Virginia" />
+	<geo:Feature rdf:about="http://ontologi.es/place/US-WY" skos:notation="US-WY" rdfs:label="Wyoming" />
+</rdf:RDF>

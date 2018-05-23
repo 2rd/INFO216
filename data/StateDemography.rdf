@@ -1,0 +1,1520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:hom="http://semantichomicides.com/homicide/property/"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:dem="http://semantichomicides.com/demography/property#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/">
+
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Alabama">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Alabama</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3864302</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">52.8</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">65.4</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">58991</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.6</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.4</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">14.0</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.5</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.0</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.3</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.7</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.6</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.3</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">22.5</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.3</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.2</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.6</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">44758</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">22788</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27882</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">45742</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">33598</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">18.4</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">26.5</dem:Under18InPoverty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Alaska">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Alaska</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">568732</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">65.5</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">61.7</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">16575</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.5</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.3</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.6</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.9</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.8</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.9</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.1</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.8</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.5</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">23.6</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.1</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.3</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.5</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">74444</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28895</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">36691</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">58422</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">45769</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.1</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">14.4</dem:Under18InPoverty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Arizona">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Arizona</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5290839</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">54.4</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">60.2</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">162087</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.5</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.6</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.2</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.3</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.2</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.9</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.8</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.2</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.0</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">22.2</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.9</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.9</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.2</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">51340</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">25197</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">30096</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">45465</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">37464</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">17.7</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.3</dem:Under18InPoverty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Arkansas">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Arkansas</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2339307</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">53.2</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">63.6</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">39475</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.1</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.6</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.6</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.4</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.4</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.4</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.7</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.7</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.3</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">24.4</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.1</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.9</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.6</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">42336</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">19567</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">26856</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40867</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">31790</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">18.8</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">26.8</dem:Under18InPoverty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/California">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>California</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">30565746</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">57.2</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">61.0</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">934436</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.4</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.0</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.7</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.0</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.8</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.9</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.2</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.1</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.9</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.3</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.3</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.4</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">63783</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">30242</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">31736</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">51272</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">44192</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.8</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.9</dem:Under18InPoverty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Colorado">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Colorado</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4245559</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">62.7</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">62.8</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">187719</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.5</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.7</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.9</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.6</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.0</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.6</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.9</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.9</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.7</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.6</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.9</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.1</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.8</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">62520</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28748</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">33253</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">51806</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">41998</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.2</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.7</dem:Under18InPoverty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Connecticut">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Connecticut</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2911925</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">62.6</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">70.6</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">81050</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.4</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.7</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.6</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.5</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.8</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.7</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.4</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.1</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.5</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">26.5</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.6</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.5</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.7</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">71755</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28095</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">39198</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">62723</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">50676</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.4</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">14.1</dem:Under18InPoverty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Delaware">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Delaware</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">753039</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">59.3</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">69.7</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">18774</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.2</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.6</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.8</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.2</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.8</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.5</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.7</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.2</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">24.9</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.1</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.5</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.6</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">61017</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">26617</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">33774</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">51389</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">42365</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.0</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">17.6</dem:Under18InPoverty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/District+of+Columbia">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>District of Columbia</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">554780</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">67.0</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">75.1</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">18015</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.1</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.8</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.3</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.8</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.8</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.9</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">23.1</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19.4</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.9</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.0</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">16.2</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">72935</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">42355</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">48059</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">71795</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">63088</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">17.9</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.8</dem:Under18InPoverty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Florida">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Florida</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">16339299</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">54.4</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">66.8</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">466696</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.1</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.8</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.2</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.8</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.3</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.1</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.7</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.8</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.1</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.3</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.3</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.5</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">48900</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">26105</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28148</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">41608</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">35674</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">16.1</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">23.3</dem:Under18InPoverty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Georgia">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Georgia</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7882965</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">58.0</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">65.4</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">224199</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.2</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.4</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.7</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.9</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.9</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.0</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.5</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.3</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.7</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.9</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.4</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.9</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.2</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">51037</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24944</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">30236</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">45683</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">36947</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">17.8</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.4</dem:Under18InPoverty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Hawaii">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Hawaii</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1137804</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">59.9</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">63.5</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">31594</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.5</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.3</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.3</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.7</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.0</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.6</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.8</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.3</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.4</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">16.0</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.4</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.8</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">71977</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28661</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">34054</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">48723</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40646</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.8</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">14.1</dem:Under18InPoverty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Idaho">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Idaho</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1251275</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">56.5</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">56.6</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">42449</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.5</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.0</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.8</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.6</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.2</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.8</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.8</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.3</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.9</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">22.7</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.1</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.4</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">49174</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">21879</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">25910</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">43261</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">32259</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.2</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19.0</dem:Under18InPoverty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Illinois">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Illinois</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10206768</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">60.7</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">68.0</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">265091</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.1</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.2</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.4</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.1</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.9</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.0</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.3</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.6</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">22.9</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.1</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.7</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.7</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">59196</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27278</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">32878</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">52855</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">41612</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">14.0</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19.5</dem:Under18InPoverty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Indiana">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Indiana</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5185793</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">59.1</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">66.6</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">104567</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.4</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.8</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">18.8</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.6</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.4</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.2</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.5</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.2</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.1</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">22.9</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.0</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.7</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.4</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">50433</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">18119</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">29865</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">47383</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">35549</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.0</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.2</dem:Under18InPoverty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Iowa">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Iowa</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2459591</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">63.3</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">75.1</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">70487</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.9</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.2</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.2</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.9</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.7</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.6</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.8</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.6</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.2</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">24.4</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.3</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.2</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.1</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">54570</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">19880</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">31014</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">47446</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">36745</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.3</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.3</dem:Under18InPoverty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Kansas">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Kansas</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2255916</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">61.5</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">66.6</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">58261</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.4</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.3</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.7</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.8</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.9</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.7</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.1</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.1</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.2</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">24.6</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.1</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.6</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.5</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">53571</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">20840</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">30627</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">47219</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">36518</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.3</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">17.2</dem:Under18InPoverty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Kentucky">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Kentucky</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3511065</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">54.8</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">64.8</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">61603</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.5</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.9</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">14.3</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.5</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.0</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.0</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.7</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.5</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.9</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">24.0</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.8</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.6</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.4</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">44811</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">21471</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27713</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">44311</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">34859</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">18.8</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.7</dem:Under18InPoverty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Louisiana">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Louisiana</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3654913</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">56.0</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">68.0</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">52798</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.6</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.0</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.9</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.6</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.6</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.2</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.6</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.1</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.8</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">23.6</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.5</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.2</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.4</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">45652</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">22143</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">30027</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">49691</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">32910</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19.7</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">27.8</dem:Under18InPoverty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Maine">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Maine</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1101688</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">59.6</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">69.2</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">34992</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.5</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.9</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.2</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.3</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.4</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.8</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.7</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.0</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.6</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">27.7</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.0</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.6</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.3</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">50826</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">22059</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">29299</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">46465</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">36982</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.5</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">17.9</dem:Under18InPoverty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Maryland">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Maryland</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4764901</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">64.1</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">71.7</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">130092</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.7</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.6</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.9</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.8</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.4</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.1</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.2</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.4</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">23.8</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.4</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.4</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.0</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">76067</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">32199</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40893</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">60651</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">51127</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.9</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.3</dem:Under18InPoverty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Massachusetts">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Massachusetts</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5522235</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">63.5</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">71.2</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">158396</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.4</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.5</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.1</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.3</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.6</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.6</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.3</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.5</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.4</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">28.1</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.8</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.4</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">70954</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">26481</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">38792</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">62265</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">51001</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.4</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">14.9</dem:Under18InPoverty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Michigan">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Michigan</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7953581</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">57.0</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">66.4</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">163030</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.2</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">18.0</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.4</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.3</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.2</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.6</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.5</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.4</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">23.7</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.5</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.7</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.5</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">50803</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">22219</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">29042</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">50760</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">38518</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">16.3</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">22.8</dem:Under18InPoverty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Minnesota">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Minnesota</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4311636</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">66.1</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">74.6</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">150396</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.3</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.7</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.5</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.9</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.2</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.6</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.8</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.2</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.8</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">24.8</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.4</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.5</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.3</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">63217</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">23049</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">34819</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">52390</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">42391</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.8</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.9</dem:Under18InPoverty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Mississippi">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Mississippi</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2338750</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">53.8</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">68.0</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">26126</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.6</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.4</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.5</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.9</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.7</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.3</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.7</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.6</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">24.4</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.6</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.7</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.5</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40528</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">20762</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">26723</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">41243</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">31418</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">22.3</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">31.5</dem:Under18InPoverty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Missouri">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Missouri</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4823223</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">59.2</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">68.1</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">128232</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.7</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.1</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.5</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.7</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.0</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.1</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.1</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.8</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.5</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">24.3</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.3</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.8</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.3</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">49593</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">21439</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">29625</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">45856</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">35709</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.3</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.1</dem:Under18InPoverty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Montana">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Montana</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">822530</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">59.5</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">63.8</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">30604</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.1</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.3</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.5</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.4</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.9</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.8</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.8</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.5</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.3</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">23.3</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.1</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.8</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.3</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">48380</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">22520</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">26400</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">44713</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">32887</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">14.9</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">18.6</dem:Under18InPoverty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Nebraska">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Nebraska</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1463872</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">65.1</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">72.2</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">41882</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.5</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.8</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.8</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.8</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.7</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.6</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.9</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.3</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.4</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">23.8</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.9</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.4</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.2</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">54384</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">20717</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">30560</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">46147</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">35812</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.4</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">16.4</dem:Under18InPoverty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Nevada">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Nevada</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2248477</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">59.2</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">65.1</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">45962</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.7</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.1</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.2</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.0</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.3</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.6</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.6</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.1</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.5</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.7</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.7</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.4</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">53094</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27549</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">30714</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">44443</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">36683</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">14.9</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.3</dem:Under18InPoverty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/New+Hampshire">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>New Hampshire</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1094783</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">63.8</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">70.3</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">41885</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.0</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.8</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.9</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.3</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.8</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.2</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.4</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.4</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">24.5</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.8</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.3</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.8</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">68485</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24173</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">35799</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">55924</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">43354</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.5</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.0</dem:Under18InPoverty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/New+Jersey">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>New Jersey</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7143654</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">60.3</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">66.9</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">175059</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.3</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.7</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.3</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.4</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.2</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.9</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.8</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.5</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.1</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">23.8</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.4</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.5</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.1</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">73702</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27331</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40025</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">62093</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">50323</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.9</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.6</dem:Under18InPoverty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/New+Mexico">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>New Mexico</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1637594</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">54.6</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">60.6</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">41049</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.2</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.9</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.5</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.1</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.4</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.4</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.5</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.6</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.2</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.4</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.2</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.9</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.6</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">45674</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">26946</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">26637</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">42489</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">34969</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.9</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">29.8</dem:Under18InPoverty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/New+York">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>New York</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15964950</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">58.7</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">64.8</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">366275</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.6</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.3</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.5</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.7</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.1</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.9</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.1</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.6</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">27.4</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.6</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.6</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">60741</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">26534</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">35375</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">52864</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">46010</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.5</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.9</dem:Under18InPoverty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/North+Carolina">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>North Carolina</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7907915</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">57.6</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">65.4</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">214932</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.4</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.7</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.4</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.6</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.9</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.3</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.8</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.3</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.3</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">23.4</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.6</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.9</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.4</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">48256</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">22375</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">29280</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">43507</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">36144</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">16.8</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">23.9</dem:Under18InPoverty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/North+Dakota">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>North Dakota</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">585370</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">65.4</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">70.4</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19268</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.3</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.5</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.8</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.5</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.5</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.8</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.4</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.7</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.7</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">24.5</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.0</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.3</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.8</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">59114</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">20764</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">32791</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">50892</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">36512</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.2</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.0</dem:Under18InPoverty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Ohio">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Ohio</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9255859</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">58.9</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">69.1</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">197371</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.1</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.1</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.5</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.7</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.7</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.8</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.7</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.4</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.4</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">24.1</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.2</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.4</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.8</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">50674</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">23103</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">30486</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">49433</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">37687</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.4</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">22.1</dem:Under18InPoverty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Oklahoma">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Oklahoma</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3025259</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">55.7</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">61.9</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">62753</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.1</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.1</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.8</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.6</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.6</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.1</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.8</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.6</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.1</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">22.4</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.3</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.2</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.2</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">48038</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">21161</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">29038</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">44120</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">32661</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">16.5</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">23.1</dem:Under18InPoverty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Oregon">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Oregon</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3219754</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">57.4</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">62.5</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">114104</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.3</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.7</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.4</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.9</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.0</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.2</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.9</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.7</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.7</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">23.0</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.0</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.8</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.5</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">53270</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">25457</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28853</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">49357</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">39454</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.7</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.4</dem:Under18InPoverty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Pennsylvania">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Pennsylvania</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10402780</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">58.2</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">67.9</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">247777</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.5</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.7</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.0</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.8</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.7</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.2</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.7</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.4</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.0</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.9</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.5</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.6</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.1</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">54895</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">21119</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">31971</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">51238</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40223</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.3</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19.1</dem:Under18InPoverty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Rhode+Island">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Rhode Island</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">868361</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">61.1</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">72.0</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">18611</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.4</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.3</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.0</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.5</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.9</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.5</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.7</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.7</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.8</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">27.5</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.8</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.6</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.1</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">58387</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">25711</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">32864</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">52314</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">43254</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.8</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19.4</dem:Under18InPoverty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/South+Carolina">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>South Carolina</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3871553</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">56.5</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">67.7</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">76200</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.3</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.8</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.7</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.2</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.7</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.8</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.8</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.8</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.6</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.5</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.1</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.7</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">46898</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">23438</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27769</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">42991</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">34389</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">17.2</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.3</dem:Under18InPoverty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/South+Dakota">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>South Dakota</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">663635</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">64.3</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">74.5</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">23690</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.9</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.1</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.9</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.4</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.2</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.7</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.2</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.1</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">24.1</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.2</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.5</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.8</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">52078</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">20835</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">29481</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">42814</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">32960</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">14.0</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">18.4</dem:Under18InPoverty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Tennessee">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Tennessee</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5222438</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">56.2</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">64.1</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">112323</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.3</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.0</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.6</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.2</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.3</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.9</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.7</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.5</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">22.7</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.4</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.9</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.4</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">46574</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">21119</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28463</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">42989</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">35008</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">17.2</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.1</dem:Under18InPoverty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Texas">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Texas</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">20599223</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">57.8</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">59.7</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">520981</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.3</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.0</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.9</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.5</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.5</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.8</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.6</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.2</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.6</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.0</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.3</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.2</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">54727</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24396</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">30692</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">47001</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">37051</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">16.7</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">23.9</dem:Under18InPoverty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Utah">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Utah</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2136930</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">59.7</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.5</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">72722</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.5</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.8</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.6</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.1</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.6</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.3</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.6</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.0</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.9</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.1</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.5</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.9</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">62518</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">25790</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28486</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">51046</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">35724</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.7</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.4</dem:Under18InPoverty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Vermont">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Vermont</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">520197</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">63.2</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">70.1</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21562</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.6</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.4</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.9</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.2</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.5</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.2</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.8</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.8</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">28.1</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.3</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.3</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.8</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">56104</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">21098</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">30747</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">47404</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40222</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.6</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.1</dem:Under18InPoverty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Virginia">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Virginia</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6653111</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">61.3</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">66.5</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">190393</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.5</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.2</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.9</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.8</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.2</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.1</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.3</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">14.9</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.9</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.0</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.3</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.0</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">66149</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">29972</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">35535</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">54783</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">43252</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.4</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.1</dem:Under18InPoverty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Washington">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Washington</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5647697</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">58.5</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">59.1</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">184206</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.7</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.1</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.5</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.9</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.8</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.2</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.3</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.4</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.5</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21.4</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.2</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.7</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.3</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">62848</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">25251</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">34886</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">56147</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">43246</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.7</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">16.5</dem:Under18InPoverty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/West+Virginia">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>West Virginia</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1509212</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">49.2</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">58.9</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">22874</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.9</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.2</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.0</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.2</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.4</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.4</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.6</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.2</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.0</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">27.0</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.2</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.3</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.8</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">42644</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">18159</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27543</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">45812</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">31981</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">17.7</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">24.7</dem:Under18InPoverty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Wisconsin">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Wisconsin</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4603725</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">63.3</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">73.3</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">119387</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.4</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.3</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">18.4</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.7</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.4</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.3</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.6</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.1</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.1</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">23.3</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.7</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.1</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.5</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">54610</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">21438</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">31195</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">49168</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">38494</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.7</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">17.5</dem:Under18InPoverty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Wyoming">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Wyoming</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">459198</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">62.5</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">64.3</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13891</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.5</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.6</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.9</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.1</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.2</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.5</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.8</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.8</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">22.8</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.7</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.6</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.4</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">59143</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">23352</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">31273</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">53359</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">36382</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.6</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.9</dem:Under18InPoverty>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Puerto+Rico">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Puerto Rico</hom:state>
+	<dem:popO16 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2863657</dem:popO16>
+	<dem:femalesInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">40.0</dem:femalesInLabor>
+	<dem:parentsInLabor rdf:datatype="http://www.w3.org/2001/XMLSchema#float">59.0</dem:parentsInLabor>
+	<dem:travelTimeToWork rdf:datatype="http://www.w3.org/2001/XMLSchema#float">21919</dem:travelTimeToWork>
+	<dem:workInAgriculture rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.4</dem:workInAgriculture>
+	<dem:workInConstruction rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.4</dem:workInConstruction>
+	<dem:workInManufacturing rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.1</dem:workInManufacturing>
+	<dem:workInWholesale rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.8</dem:workInWholesale>
+	<dem:workInRetail rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.5</dem:workInRetail>
+	<dem:workInTransportation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.7</dem:workInTransportation>
+	<dem:workInInformation rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</dem:workInInformation>
+	<dem:workInFinanceRealEstate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.4</dem:workInFinanceRealEstate>
+	<dem:workInManagement rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.8</dem:workInManagement>
+	<dem:workInEducationHealth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">23.6</dem:workInEducationHealth>
+	<dem:workInArtsEntertainment rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.3</dem:workInArtsEntertainment>
+	<dem:workInOther rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.4</dem:workInOther>
+	<dem:workInPublicAdmin rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.7</dem:workInPublicAdmin>
+	<dem:medianHouseIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">19606</dem:medianHouseIncome>
+	<dem:meanRetirementIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">16421</dem:meanRetirementIncome>
+	<dem:medianIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#int">16927</dem:medianIncome>
+	<dem:medianMaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">22948</dem:medianMaleIncome100>
+	<dem:medianFemaleIncome100 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">23294</dem:medianFemaleIncome100>
+	<dem:percentInPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">45.1</dem:percentInPoverty>
+	<dem:Under18InPoverty rdf:datatype="http://www.w3.org/2001/XMLSchema#float">57.3</dem:Under18InPoverty>
+</rdf:Description>
+
+</rdf:RDF>

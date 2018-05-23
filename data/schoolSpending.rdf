@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:hom="http://semantichomicides.com/homicide/property/"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:dem="http://semantichomicides.com/demography/property#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/">
+
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Alabama">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Alabama</hom:state>
+	<dem:spentPerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9028</dem:spentPerPupil>
+	<dem:teacherWagePerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3359</dem:teacherWagePerPupil>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Alaska">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Alaska</hom:state>
+	<dem:spentPerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">18416</dem:spentPerPupil>
+	<dem:teacherWagePerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5260</dem:teacherWagePerPupil>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Arizona">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Arizona</hom:state>
+	<dem:spentPerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7528</dem:spentPerPupil>
+	<dem:teacherWagePerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2855</dem:teacherWagePerPupil>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Arkansas">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Arkansas</hom:state>
+	<dem:spentPerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9616</dem:spentPerPupil>
+	<dem:teacherWagePerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3631</dem:teacherWagePerPupil>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/California">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>California</hom:state>
+	<dem:spentPerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9595</dem:spentPerPupil>
+	<dem:teacherWagePerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3779</dem:teacherWagePerPupil>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Colorado">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Colorado</hom:state>
+	<dem:spentPerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8985</dem:spentPerPupil>
+	<dem:teacherWagePerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3620</dem:teacherWagePerPupil>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Connecticut">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Connecticut</hom:state>
+	<dem:spentPerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">17745</dem:spentPerPupil>
+	<dem:teacherWagePerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6997</dem:teacherWagePerPupil>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Delaware">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Delaware</hom:state>
+	<dem:spentPerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">13938</dem:spentPerPupil>
+	<dem:teacherWagePerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5374</dem:teacherWagePerPupil>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/District+of+Columbia">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>District of Columbia</hom:state>
+	<dem:spentPerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">18485</dem:spentPerPupil>
+	<dem:teacherWagePerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8704</dem:teacherWagePerPupil>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Florida">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Florida</hom:state>
+	<dem:spentPerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8755</dem:spentPerPupil>
+	<dem:teacherWagePerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3214</dem:teacherWagePerPupil>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Georgia">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Georgia</hom:state>
+	<dem:spentPerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9202</dem:spentPerPupil>
+	<dem:teacherWagePerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3785</dem:teacherWagePerPupil>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Hawaii">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Hawaii</hom:state>
+	<dem:spentPerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12400</dem:spentPerPupil>
+	<dem:teacherWagePerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4711</dem:teacherWagePerPupil>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Idaho">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Idaho</hom:state>
+	<dem:spentPerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6621</dem:spentPerPupil>
+	<dem:teacherWagePerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2741</dem:teacherWagePerPupil>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Illinois">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Illinois</hom:state>
+	<dem:spentPerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">13077</dem:spentPerPupil>
+	<dem:teacherWagePerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4747</dem:teacherWagePerPupil>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Indiana">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Indiana</hom:state>
+	<dem:spentPerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9548</dem:spentPerPupil>
+	<dem:teacherWagePerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3516</dem:teacherWagePerPupil>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Iowa">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Iowa</hom:state>
+	<dem:spentPerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10668</dem:spentPerPupil>
+	<dem:teacherWagePerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4508</dem:teacherWagePerPupil>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Kansas">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Kansas</hom:state>
+	<dem:spentPerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9940</dem:spentPerPupil>
+	<dem:teacherWagePerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3870</dem:teacherWagePerPupil>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Kentucky">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Kentucky</hom:state>
+	<dem:spentPerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9314</dem:spentPerPupil>
+	<dem:teacherWagePerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3747</dem:teacherWagePerPupil>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Louisiana">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Louisiana</hom:state>
+	<dem:spentPerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10749</dem:spentPerPupil>
+	<dem:teacherWagePerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3789</dem:teacherWagePerPupil>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Maine">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Maine</hom:state>
+	<dem:spentPerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12707</dem:spentPerPupil>
+	<dem:teacherWagePerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5050</dem:teacherWagePerPupil>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Maryland">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Maryland</hom:state>
+	<dem:spentPerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">14003</dem:spentPerPupil>
+	<dem:teacherWagePerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5544</dem:teacherWagePerPupil>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Massachusetts">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Massachusetts</hom:state>
+	<dem:spentPerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15087</dem:spentPerPupil>
+	<dem:teacherWagePerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6343</dem:teacherWagePerPupil>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Michigan">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Michigan</hom:state>
+	<dem:spentPerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11110</dem:spentPerPupil>
+	<dem:teacherWagePerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3857</dem:teacherWagePerPupil>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Minnesota">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Minnesota</hom:state>
+	<dem:spentPerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11464</dem:spentPerPupil>
+	<dem:teacherWagePerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5085</dem:teacherWagePerPupil>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Mississippi">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Mississippi</hom:state>
+	<dem:spentPerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8263</dem:spentPerPupil>
+	<dem:teacherWagePerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3098</dem:teacherWagePerPupil>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Missouri">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Missouri</hom:state>
+	<dem:spentPerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9875</dem:spentPerPupil>
+	<dem:teacherWagePerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4096</dem:teacherWagePerPupil>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Montana">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Montana</hom:state>
+	<dem:spentPerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11017</dem:spentPerPupil>
+	<dem:teacherWagePerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4243</dem:teacherWagePerPupil>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Nebraska">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Nebraska</hom:state>
+	<dem:spentPerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11726</dem:spentPerPupil>
+	<dem:teacherWagePerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4938</dem:teacherWagePerPupil>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Nevada">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Nevada</hom:state>
+	<dem:spentPerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8414</dem:spentPerPupil>
+	<dem:teacherWagePerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3180</dem:teacherWagePerPupil>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/New+Hampshire">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>New Hampshire</hom:state>
+	<dem:spentPerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">14332</dem:spentPerPupil>
+	<dem:teacherWagePerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5671</dem:teacherWagePerPupil>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/New+Jersey">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>New Jersey</hom:state>
+	<dem:spentPerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">17899</dem:spentPerPupil>
+	<dem:teacherWagePerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6888</dem:teacherWagePerPupil>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/New+Mexico">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>New Mexico</hom:state>
+	<dem:spentPerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9008</dem:spentPerPupil>
+	<dem:teacherWagePerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3595</dem:teacherWagePerPupil>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/New+York">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>New York</hom:state>
+	<dem:spentPerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">20607</dem:spentPerPupil>
+	<dem:teacherWagePerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8712</dem:teacherWagePerPupil>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/North+Carolina">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>North Carolina</hom:state>
+	<dem:spentPerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8512</dem:spentPerPupil>
+	<dem:teacherWagePerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3609</dem:teacherWagePerPupil>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/North+Dakota">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>North Dakota</hom:state>
+	<dem:spentPerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12358</dem:spentPerPupil>
+	<dem:teacherWagePerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5073</dem:teacherWagePerPupil>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Ohio">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Ohio</hom:state>
+	<dem:spentPerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11349</dem:spentPerPupil>
+	<dem:teacherWagePerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4435</dem:teacherWagePerPupil>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Oklahoma">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Oklahoma</hom:state>
+	<dem:spentPerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7829</dem:spentPerPupil>
+	<dem:teacherWagePerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2883</dem:teacherWagePerPupil>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Oregon">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Oregon</hom:state>
+	<dem:spentPerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9945</dem:spentPerPupil>
+	<dem:teacherWagePerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3350</dem:teacherWagePerPupil>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Pennsylvania">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Pennsylvania</hom:state>
+	<dem:spentPerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">13961</dem:spentPerPupil>
+	<dem:teacherWagePerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5368</dem:teacherWagePerPupil>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Rhode+Island">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Rhode Island</hom:state>
+	<dem:spentPerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">14767</dem:spentPerPupil>
+	<dem:teacherWagePerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5961</dem:teacherWagePerPupil>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/South+Carolina">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>South Carolina</hom:state>
+	<dem:spentPerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9732</dem:spentPerPupil>
+	<dem:teacherWagePerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3737</dem:teacherWagePerPupil>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/South+Dakota">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>South Dakota</hom:state>
+	<dem:spentPerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8881</dem:spentPerPupil>
+	<dem:teacherWagePerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3592</dem:teacherWagePerPupil>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Tennessee">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Tennessee</hom:state>
+	<dem:spentPerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8630</dem:spentPerPupil>
+	<dem:teacherWagePerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3555</dem:teacherWagePerPupil>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Texas">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Texas</hom:state>
+	<dem:spentPerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8592</dem:spentPerPupil>
+	<dem:teacherWagePerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3934</dem:teacherWagePerPupil>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Utah">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Utah</hom:state>
+	<dem:spentPerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6500</dem:spentPerPupil>
+	<dem:teacherWagePerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2562</dem:teacherWagePerPupil>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Vermont">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Vermont</hom:state>
+	<dem:spentPerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">16988</dem:spentPerPupil>
+	<dem:teacherWagePerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6564</dem:teacherWagePerPupil>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Virginia">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Virginia</hom:state>
+	<dem:spentPerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10973</dem:spentPerPupil>
+	<dem:teacherWagePerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4580</dem:teacherWagePerPupil>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Washington">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Washington</hom:state>
+	<dem:spentPerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10202</dem:spentPerPupil>
+	<dem:teacherWagePerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3958</dem:teacherWagePerPupil>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/West+Virginia">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>West Virginia</hom:state>
+	<dem:spentPerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11251</dem:spentPerPupil>
+	<dem:teacherWagePerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3862</dem:teacherWagePerPupil>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Wisconsin">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Wisconsin</hom:state>
+	<dem:spentPerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11186</dem:spentPerPupil>
+	<dem:teacherWagePerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4310</dem:teacherWagePerPupil>
+</rdf:Description>
+
+<rdf:Description rdf:about="http:/semantichomicides.com/demography/Wyoming">
+	<rdf:type rdf:resource="http://semantichomicides.com/demography/property#State"/>
+	<hom:state>Wyoming</hom:state>
+	<dem:spentPerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15797</dem:spentPerPupil>
+	<dem:teacherWagePerPupil rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6094</dem:teacherWagePerPupil>
+</rdf:Description>
+
+</rdf:RDF>
