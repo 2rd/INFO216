@@ -1,0 +1,88 @@
+<html>
+  <head>
+    <title>INFO216 Semesteroppgave</title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript" src="sgvizler.js"></script>
+    <script>
+        sgvizler
+            .prefix("hom", "http://semantichomicides.com/homicide/property/")
+            .prefix("dem", "http://semantichomicides.com/demography/property#")
+            .defaultEndpointURL("http://localhost:3030/ds/query")
+            .defaultQuery("SELECT * { ?a ?b ?c, ?d, ?e } LIMIT 7")
+            .defaultChartFunction("sgvizler.visualization.Table")
+            .defaultChartWidth(500)
+            .defaultChartHeight(500);
+    </script>
+  </head>
+  <body>
+      <a href="index.html"><p>Back to index</p></a>
+      <p>Custom SPARQL queries.</p>
+      <div id="sparql"></div>
+      <script type="text/javascript">
+        $(document).ready(function() { sgvizler.formDraw("sparql"); });
+      </script>
+
+      <div>
+
+          <p>All homicides are of the type hom:Homicide and have following properties:</p>
+          <ul>
+              <li>hom:state - The state the homicide took place in</li>
+              <li>hom:solved - If the case was solved</li>
+              <li>hom:year - The year the homicide took place</li>
+              <li>hom:month - The month the homicide took place</li>
+              <li>hom:vicAge - The victim's age</li>
+              <li>hom:vicSex - The victim's sex</li>
+              <li>hom:vicRace - The victim's race</li>
+              <li>hom:offAge - The perpetrator's age</li>
+              <li>hom:offSex - The perpetrator's sex</li>
+              <li>hom:offRace - The perpetrator's race</li>
+              <li>hom:weapon - The type of weapon that was used</li>
+              <li>hom:relation - The relationship of the victim to the perpetrator. If the victim was the father of the perpetrator, this field would be 'Father'</li>
+              <li>hom:vicCount - How many victims there are in a case</li>
+              <li>hom:offCount - How many perpetrators there are in a case</li>
+          </ul>
+
+          <p>All US states are of the type dem:State and have the following properties:</p>
+          <ul>
+              <li>dem:popO16 - Population of a state older than 16 years</li>
+              <li>dem:malePercent  -  Percentage of the population that is male</li>
+              <li>dem:femPercent  -  Percentage of the population that is female</li>
+              <li>dem:medianAge  -  The median age of the population</li>
+              <li>dem:white  -  Percentage of the population that is white of race</li>
+              <li>dem:black  -  Percentage of the population that is black of race</li>
+              <li>dem:native  -  Percentage of the population that is native of race</li>
+              <li>dem:asian  -  Percentage of the population that is asian of race</li>
+              <li>dem:islander  -  Percentage of the population that is Pacific Islander of race</li>
+              <li>dem:hispanic  -  Percentage of the population that is hispanic</li>
+              <li>dem:spentPerPupil  -  $ spent per elementary school pupil</li>
+              <li>dem:teacherWagePerPupil  -  $ spent on teacher wages per elementary school pupil</li>
+              <li>dem:femalesinLabor - How many females in the workforce of the state</li>
+              <li>dem:malesInLabor - How many males in the workforce of the state</li>
+              <li>dem:travelTimeToWork - Mislabeled, shows how many people work from home</li>
+              <li>dem:workInAgriculture - How many people in a state that work in agriculture</li>
+              <li>dem:workInConstruction - How many people in a state that work in construction</li>
+              <li>dem:workInManufacturing - How many people in a state that work in manufacturing</li>
+              <li>dem:workInWholesale - How many people in a state that work in wholesale</li>
+              <li>dem:workInRetail - How many people in a state that work in retail</li>
+              <li>dem:workInTransportation - How many people in a state that work in transportation</li>
+              <li>dem:workInInformation - How many people in a state that work in information</li>
+              <li>dem:workInFinanceRealEstate - How many people in a state that work in finance and real estate</li>
+              <li>dem:workInManagement - How many people in a state that work in management</li>
+              <li>dem:workInEducationHealth - How many people in a state that work in education</li>
+              <li>dem:workInArtsEntertainment - How many people in a state that work in arts and entertainment</li>
+              <li>dem:workInOther - How many people in a state that work in other fields</li>
+              <li>dem:workInPublicAdmin - How many people in a state that work in public administration</li>
+              <li>dem:medianHouseIncome - The median income of a household</li>
+              <li>dem:meanRetirementIncome - The mean retirement income of a person</li>
+              <li>dem:medianIncome - The median income of a person</li>
+              <li>dem:medianMaleIncome100 - The median income of males</li>
+              <li>dem:medianFemaleIncome100 - The median income of females</li>
+              <li>dem:percentInPoverty - The percentage of people living in poverty</li>
+              <li>dem:Under18InPoverty - The percentage of people younger than 18 living in poverty</li>
+          </ul>
+          
+          <p>NB: Ages in hom:vicAge and hom:offAge have text instead of numbers if the person is newborn or an infant (Newborn or infant), <br>
+            if the age is unknown (Age unknown), and if the person is 100 years or older (99 years or older).</p>
+      </div>
+  </body>

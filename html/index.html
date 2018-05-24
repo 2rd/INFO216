@@ -1,0 +1,107 @@
+<html>
+  <head>
+    <title>INFO216 Semesteroppgave</title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript" src="sgvizler.js"></script>
+    <script>
+      $(document).ready(
+          function (){ sgvizler.containerDrawAll(); }
+      );
+    </script>
+  </head>
+  <body>
+    <h1>Homicidal Queries</h1>
+    <p>Please allow the page to load for a few seconds.</p>
+    <p>A database of homicides.</p>
+    <p>If you are using the reduced dataset, only murders from 2015 and 2016 will be used for the statistics.</p>
+    <a href="povertyHomicideGeoMap.html"><p>Poverty/homicide rate geochart.</p></a>
+    <a href="solvedRate.html"><p>Percentage of homicides that are solved per state.</p></a>
+    <a href="custom.html"><p>Custom SPARQL queries.</p></a>
+
+    <div>
+      <p>Top ten homicide rate.</p>
+      <div id="homicidesByYearTopTen"
+            data-sgvizler-endpoint="http://localhost:3030/ds/query"
+            data-sgvizler-query="
+            PREFIX hom: <http://semantichomicides.com/homicide/property/>
+            PREFIX dem: <http://semantichomicides.com/demography/property#>
+
+            SELECT ?state ((?homicides/?pop)*100000 AS ?homicideRate)
+            WHERE {
+              {
+                SELECT ?state (COUNT(?homicide) AS ?homicides) WHERE {
+                  ?homicide a hom:Homicide.
+                  ?homicide hom:state ?state.
+                  ?homicide hom:year ?year
+                } 
+                GROUP BY ?state
+              }{
+                SELECT ?pop ?state ?medianHouseIncome WHERE {
+                  ?stat a dem:State .
+                  ?stat dem:popO16 ?pop .
+                  ?stat hom:state ?state
+                }
+              }
+            }
+            ORDER BY DESC(?homicideRate)
+            LIMIT 10
+            "
+            data-sgvizler-chart="google.visualization.ColumnChart"
+            style="width:1500px; height:550px; float: left;"></div>
+    </div>
+
+    <div>
+      <p>Lowest ten homicide rates.</p>
+        <div id="homicidesByYearBotTen"
+              data-sgvizler-endpoint="http://localhost:3030/ds/query"
+              data-sgvizler-query="
+              PREFIX hom: <http://semantichomicides.com/homicide/property/>
+              PREFIX dem: <http://semantichomicides.com/demography/property#>
+              
+              SELECT ?state ((?homicides/?pop)*100000 AS ?homicideRate)
+              WHERE {
+                {
+                  SELECT ?state (COUNT(?homicide) AS ?homicides) WHERE {
+                    ?homicide a hom:Homicide.
+                    ?homicide hom:state ?state.
+                    ?homicide hom:year ?year
+                  } 
+                  GROUP BY ?state
+                }{
+                  SELECT ?pop ?state WHERE {
+                    ?stat a dem:State .
+                    ?stat dem:popO16 ?pop .
+                    ?stat hom:state ?state
+                  }
+                }
+              }
+              ORDER BY ?homicideRate
+              LIMIT 10
+              "
+              data-sgvizler-chart="google.visualization.ColumnChart"
+              style="width:800px; height:550px; float: left;"></div>
+      </div>
+
+    <!--
+    <div>
+        <div id="avgAge"
+              data-sgvizler-endpoint="http://localhost:3030/ds/query"
+              data-sgvizler-query="
+              PREFIX hom: <http://semantichomicides.com/homicide/property/>
+              PREFIX dem: <http://semantichomicides.com/demography/property#>
+
+              SELECT ?state (avg(?vage) AS ?Average_victim_age) (avg(?oage) as ?Average_offender_age)
+              WHERE {
+                ?a hom:state ?state .
+                ?a hom:vicAge ?vage .
+                ?a hom:offAge ?oage
+              }
+              group by ?state
+              "
+              data-sgvizler-chart="google.visualization.ColumnChart"
+              style="width:1800px; height:550px; float: left;"></div>
+    </div>
+    -->
+  </body>
+</html>

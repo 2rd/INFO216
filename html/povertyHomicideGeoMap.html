@@ -1,0 +1,90 @@
+<html>
+  <head>
+    <title>INFO216 Semesteroppgave</title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript" src="sgvizler.js"></script>
+    <script>
+      $(document).ready(
+          function (){ sgvizler.containerDrawAll(); }
+      );
+    </script>
+  </head>
+  <body>
+      <a href="index.html"><p>Back to index</p></a>
+      <p>It is difficult to say if there is a correlation between poverty and homicides.</p>
+      <p>This might be easier to see if we had a map that showed the homicide rate and poverty rate in cities, instead of states, <br> 
+        as there could be fluctuations between poor and rich neighbourhoods which is difficult to see on a scale like this.</p>
+    <div id="povertyGeo"
+      data-sgvizler-endpoint="http://localhost:3030/ds/query"
+      data-sgvizler-query="
+      prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+      prefix skos:<http://www.w3.org/2004/02/skos/core#> 
+      prefix hom: <http://semantichomicides.com/homicide/property/> 
+      prefix dem: <http://semantichomicides.com/demography/property#>
+      
+      SELECT ?iso ?state ?PercentInPoverty ((?homicides/?pop)*100000 AS ?homicideRate) WHERE {
+      
+        {
+          SELECT ?state (COUNT(?homicide) AS ?homicides) WHERE {
+            ?homicide a hom:Homicide.
+            ?homicide hom:state ?state.
+            ?homicide hom:year ?year.
+          }GROUP BY ?state
+        }
+        {
+          SELECT ?pop ?PercentInPoverty ?state WHERE {
+            ?stat a dem:State.
+            ?stat dem:popO16 ?pop.
+            ?stat hom:state ?state.
+            ?stat dem:percentInPoverty ?PercentInPoverty
+          }
+        }
+        {
+          SELECT ?state ?iso where {
+            ?stateInfo rdfs:label ?state.
+            ?stateInfo skos:notation ?iso
+          }
+        }
+      }
+      order by desc(?homicideRate)
+      LIMIT 50
+      "
+      data-sgvizler-chart="google.visualization.GeoChart"
+      data-sgvizler-chart-options="region=US|resolution=provinces"
+      
+      style="width:1000px; height:550px;"></div>
+
+    <p>District of Columbia has the highest homicide rate, but is not visible on the geochart because of its small size.</p>
+    <div>
+      <div id="homicidesByYearTopTen"
+        data-sgvizler-endpoint="http://localhost:3030/ds/query"
+        data-sgvizler-query="
+        PREFIX hom: <http://semantichomicides.com/homicide/property/>
+        PREFIX dem: <http://semantichomicides.com/demography/property#>
+
+        SELECT ?state ?Poverty ((?homicides/?pop)*100000 AS ?homicideRate)
+        WHERE {
+          {
+            SELECT ?state (COUNT(?homicide) AS ?homicides) WHERE {
+              ?homicide a hom:Homicide.
+              ?homicide hom:state 'District of Columbia'.
+              ?homicide hom:year ?year.
+            } 
+            GROUP BY ?state
+          }{
+            SELECT ?pop ?Poverty ?state WHERE {
+              ?stat a dem:State .
+              ?stat dem:popO16 ?pop .
+              ?stat hom:state 'District of Columbia'.
+              ?stat dem:percentInPoverty ?Poverty
+            }
+          }
+        }
+        ORDER BY DESC(?homicideRate)
+        LIMIT 10
+        "
+        data-sgvizler-chart="google.visualization.ColumnChart"
+        style="width:800px; height:550px; float: left;"></div>
+    </div>
+  </body>

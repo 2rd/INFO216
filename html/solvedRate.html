@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <title>INFO216 Semesteroppgave</title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript" src="sgvizler.js"></script>
+    <script>
+      $(document).ready(
+          function (){ sgvizler.containerDrawAll(); }
+      );
+    </script>
+  </head>
+  <body>
+    <div>
+        <p>Percentage of solved cases. The greener the state is, the higher the percentage.</p>
+        <div id="unsolved"
+            data-sgvizler-endpoint="http://localhost:3030/ds/query"
+            data-sgvizler-query="
+            PREFIX hom: <http://semantichomicides.com/homicide/property/>
+            PREFIX dem: <http://semantichomicides.com/demography/property#>
+
+            SELECT ?state ((?solved/(?solved+?unsolved)*100) as ?percentSolved)
+            WHERE {
+            {
+                select ?state (count(?s) as ?solved)
+                where {
+                values ?s {'Yes'}
+                ?a hom:solved ?s.
+                ?a hom:state ?state
+                }
+                group by ?state
+            }
+            {
+                select ?state (count(?u) as ?unsolved)
+                where {
+                values ?u {'No'}
+                ?a hom:solved ?u.
+                ?a hom:state ?state
+                }
+                group by ?state
+            }
+            }
+            order by desc(?percentSolved)
+            "
+            data-sgvizler-chart="google.visualization.GeoChart"
+            data-sgvizler-chart-options="region=US|resolution=provinces"
+            style="width:1500px; height:550px; float: left;"></div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <title>INFO216 Semesteroppgave</title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript" src="sgvizler.js"></script>
+    <script>
+      $(document).ready(
+          function (){ sgvizler.containerDrawAll(); }
+      );
+    </script>
+  </head>
+  <body>
+    <div>
+        <p>The difference in homicides where the victom is a biological parent versus a stepparent. Our hypothesis is that stepparents are more likely to be a victim <br>
+        due to the conflict it can add to the family. According to <a href="http://www.stepfamilies.info/stepfamily-fact-sheet.php">this</a> website, 6.7% of the children in the US live <br>
+        with a stepparent.</p>
+        <div id="unsolved"
+                data-sgvizler-endpoint="http://localhost:3030/ds/query"
+                data-sgvizler-query="
+                PREFIX hom: <http://semantichomicides.com/homicide/property/>
+                PREFIX dem: <http://semantichomicides.com/demography/property#>
+
+                SELECT (?bios2+?bios as ?bioParents) (?steps+?steps2 as ?stepParents)
+                WHERE {
+                {
+                    SELECT (COUNT (?bio) as ?bios) (COUNT (?bio2) as ?bios2)
+                    WHERE {
+                    ?a hom:relation ?bio.
+                    FILTER regex(?bio, 'Father').
+                    ?b hom:relation ?bio2
+                    FILTER regex(?bio2, 'Mother')
+                    }
+                }
+                {
+                    SELECT (COUNT (?step) as ?steps) (COUNT (?step2) as ?steps2)
+                    WHERE {
+                    ?b hom:relation ?step.
+                    FILTER regex(?step, 'Stepfather').
+                    ?a hom:relation ?step2.
+                    FILTER regex(?step2, 'Stepmother')
+                    }
+                }
+                }
+                "
+                data-sgvizler-chart="google.visualization.ColumnChart"
+                style="width:1000px; height:550px; float: left;"></div>
+    </div>
+  </body>
+</html>
+
+
